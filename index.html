@@ -1,0 +1,193 @@
+<!doctype html>
+
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>WEB UI 기말 과제</title>
+    <link rel="stylesheet" href="main.css">
+ 
+</head>
+<body>
+    <header>
+        <div class="headerBox">
+            <div class="maintitle">
+                <h1>NAVER <span>MUSIC</span></h1>
+            </div>
+            <div class="searchBox">
+                <input type="text">
+                <button class="searchBtn">검색</button>
+                <button class="totalsearchBtn">통합검색</button>
+            </div>
+        </div>
+        <nav class="headerNav">
+            <ul>
+                <li><a href="#">뮤직 홈</a></li>
+                <li><a href="#">마이 뮤직</a></li>
+                <li><a href="#">오늘의 뮤직</a></li>
+                <li><a href="#">뮤지션 리그</a></li>
+                <li><a href="#">온스테이지</a></li>
+                <li><a href="#">이용권 구매</a></li>
+                <li><a href="#">HD음원</a></li>
+                <li><a href="#">라디오</a></li>
+                <li><a href="#">네이버앱 뮤직판 오픈!</a></li>
+            
+            </ul>
+        </nav>
+    </header>
+    <nav class="leftNav">
+        <div class="musicplayerBox">
+            <button>뮤직플레이어</button>
+        </div>
+        <h4>음악 감상</h4>
+        <ul class="musicList" id="music-list">
+            <li class="toggleEventList"><i class="fa fa-chevron-right"></i><a href="">TOP 100</a></li>
+                <ul class="detailList">
+                    <li><a href="#">종합</a></li>
+                    <li><a href="#">국내</a></li>
+                    <li><a href="#">해외</a></li>
+                    <li><a href="#">뮤지션리그</a></li>
+                    <li><a href="#">차트 히스토리</a></li>
+                </ul>
+            <li class="toggleEventList"><i class="fa fa-chevron-right"></i><a href="#">최신앨범</a></li>
+                <ul class="detailList">
+                    <li><a href="#">종합</a></li>
+                    <li><a href="#">국내</a></li>
+                    <li><a href="#">해외</a></li>
+                    <li><a href="#">뮤지션리그</a></li>
+                    <li><a href="#">차트 히스토리</a></li>
+                </ul>
+            <li class="toggleEventList"><i class="fa fa-chevron-right"></i><a href="#">최신곡</a></li>
+                <ul class="detailList">
+                    <li><a href="#">종합</a></li>
+                    <li><a href="#">국내</a></li>
+                    <li><a href="#">해외</a></li>
+                    <li><a href="#">뮤지션리그</a></li>
+                    <li><a href="#">차트 히스토리</a></li>
+                </ul>
+            <li class="toggleEventList"><i class="fa fa-chevron-right"></i><a href="#">국내음악</a></li>
+                <ul class="detailList">
+                    <li><a href="#">종합</a></li>
+                    <li><a href="#">국내</a></li>
+                    <li><a href="#">해외</a></li>
+                    <li><a href="#">뮤지션리그</a></li>
+                    <li><a href="#">차트 히스토리</a></li>
+                </ul>
+            <li class="toggleEventList"><i class="fa fa-chevron-right"></i><a href="#">해외음악</a></li>
+                <ul class="detailList">
+                    <li><a href="#">종합</a></li>
+                    <li><a href="#">국내</a></li>
+                    <li><a href="#">해외</a></li>
+                    <li><a href="#">뮤지션리그</a></li>
+                    <li><a href="#">차트 히스토리</a></li>
+                </ul>
+            <li class="toggleEventList"><i class="fa fa-chevron-right"></i><a href="#">기타장르</a></li>
+                <ul class="detailList">
+                    <li><a href="#">종합</a></li>
+                    <li><a href="#">국내</a></li>
+                    <li><a href="#">해외</a></li>
+                    <li><a href="#">뮤지션리그</a></li>
+                    <li><a href="#">차트 히스토리</a></li>
+                </ul>
+            <li class="toggleEventList"><i class="fa fa-chevron-right"></i><a href="#">뮤직비디오</a></li>
+                <ul class="detailList">
+                    <li><a href="#">종합</a></li>
+                    <li><a href="#">국내</a></li>
+                    <li><a href="#">해외</a></li>
+                    <li><a href="#">뮤지션리그</a></li>
+                    <li><a href="#">차트 히스토리</a></li>
+                </ul>
+            <li class="toggleEventList"><i class="fa fa-chevron-right"></i><a href="#">추천음악</a></li>
+                <ul class="detailList">
+                    <li><a href="#">테마채널</a></li>
+                    <li><a href="#">명예의전당</a></li>
+                    <li><a href="#">블로그 DJ</a></li>
+                    <li><a href="#">MUSICAIAN's Choice</a></li>
+                    <li><a href="#">지구촌 팝뉴스</a></li>
+                    <li><a href="#">이주의 발견-국내</a></li>
+                    <li><a href="#">이주의 발견-해외</a></li>
+                    <li><a href="#">시대별 음악</a></li>
+                </ul>
+        </ul>
+        <h4>마이 뮤직</h4>
+           
+            <li class="toggleEventList"><i class="fa fa-chevron-right"></i><a href="#">내 리스트</a></li>
+                <ul class="detailList">
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                </ul>
+    </nav>
+    <section>
+        <h2>오늘의 뮤직</h2>
+        <nav class="sectionNav">
+            <ul>
+                <li><a href="#">오늘의 뮤직 홈</a></li>
+                <li><a href="#">스페셜</a></li>
+                <li><a href="#">매거진</a></li>
+                <li><a href="#">이벤트</a></li>
+            </ul>
+        </nav>
+        <div class="topSection" id="top-section">
+            <div class="topSectionTitle">
+                <h3>HOT & NEW </h3><span>(8)</span>
+            </div>
+                            <li class="cardBox">
+                                <img src="./image/1.jpg" alt="">
+                                <div class="cardBoxContent">
+                                    <h4>스페셜</h4>
+                                    <h5>스펙트럼댄스뮤직페스티벌</h5>
+                                </div>
+                            </li>
+                            <li class="cardBox">
+                                <img src="./image/2.jpg" alt="">
+                                <div class="cardBoxContent">
+                                    <h4>스페셜</h4>
+                                    <h5>2016조이올팍페스티벌</h5>
+                                </div>
+                            </li>
+                            <li class="cardBox">
+                                <img src="./image/3.jpg" alt="">
+                                <div class="cardBoxContent">
+                                    <h4>스페셜</h4>
+                                    <h5>렉츠락 페스티벌 최종 라인업</h5>
+                                </div>
+                            </li>
+           </div>
+         
+        <div class="bottomSection">
+            <div class="bottomSectionTitle">
+                <h3>스페셜 <span>(2862)</span></h3>
+                <span class="moreBtn">스페셜 더보기</span>
+            </div>
+            <div class="listBox">
+                <img src="./image/4.jpeg" alt="">
+                <div class="listBoxContent">
+                    <h4>스페셜</h4>
+                    <h5>[공연 초대] 스펙트럼 댄스 뮤직! 초대형 EDM 페스티벌</h5>
+                    <p>
+                        다양한 댄스음악 총망라! 최강 라인업을 선보인 스펙트럼 댄스 뮤직 페스티벌이 2016년 10월 1일(토)~2일(일) 양일간 개최됩니다. 주요 아티스트의 추천 트랙과 함께 진정한 "스펙트럼"의 세계를 만나보세요!
+                    </p>
+                </div>
+            </div>
+            <div class="listBox">
+                <img src="./image/5.jpeg" alt="">
+                <div class="listBoxContent">
+                    <h4>스페셜</h4>
+                    <h5>[공연 초대] 도심으로 떠나는 가을 바캉스 [2016 조이올팍페스티벌]</h5>
+                    <p> 
+                        어서오세요! 꿈이 깨진 시대, 불확실한 세상과 현실, 불안한 미래를 살아가는 우리를 토닥토닥 위로하고, 공감하며, 지친 일상에서 깨워주고자 태어난 착한 페스티벌, [조이올팍페스티벌]입니다. [2016 조이올팍페스티벌]로 을 바캉스 떠나볼까요~?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script src="application.js"></script>
+</body>
+</html>

@@ -1,0 +1,272 @@
+
+a{
+    color: #000;
+}
+
+a:link{
+    color: #000;
+}
+
+a:active{
+    color: #000;
+}
+
+a:hover{
+    color: #000;
+}
+
+html{
+    width: 1000px;
+}
+
+header{
+    background-color: #002222;
+}
+
+.headerBox{
+    padding: 20px;
+}
+
+.maintitle{
+    display: inline;
+}
+
+.maintitle h1{
+    display: inline;
+    color: #44b402;
+    font-size: 24px;
+}
+
+.maintitle h1 span{
+    color: #44b402;
+}
+
+.searchBox{
+    display: inline;
+    vertical-align: middle;
+}
+
+.searchBox input{
+    border: solid 3px #44b402;
+    background-color: #ff;
+    width: 150px;
+    padding: 2px;
+}
+
+.searchBtn{
+    margin-top: -2px;
+    color: #fff;
+    background-color: #44B402;
+    font-size: 11px;
+    border: transparent;
+}
+
+.totalsearchBtn{
+    color: #8A8A9A;
+    background-color: #41414B;
+    border: solid 1px #32323A;
+    font-size: 11px;
+}
+
+.fa-th{
+    color: #E9E9EB;
+}
+
+.headerNav{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    background-color: #000;
+}
+
+.headerNav ul{
+    display: inline;
+}
+
+.headerNav ul li{
+    display: inline;
+    padding: 5px 15px;
+    font-size: 12px;
+}
+
+.headerNav a{
+    color: #8C8C9C;
+}
+
+.headerNav a:active{
+    color: #fff;
+}
+
+.leftNav{
+    float: left;
+    padding-left: 10px;
+    padding-bottom: 800px;
+    border-right: solid 1px;
+    background-color: #e9e9eb;
+    z-index: 9999;
+}
+
+.leftNav button{
+    padding: 10px 24px;
+    background-color: #e5e3d3;
+}
+
+.musicplayerBox{
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.leftNav h4{
+    margin-left: 5px;
+}
+
+.musicList{
+    margin-top: 5px
+}
+
+.musicList li{
+    margin: 4px 1px;
+}
+
+.detailList{
+    display:none;
+    margin-left: 20px;
+    list-style-type: circle;
+    font-size: 12px;
+}
+
+.cardBox{
+    display: inline-block;
+    height: 100%;
+    margin: 2px 0px 10px 40px;
+}
+
+.cardBoxContent{
+    background-color: #fff;
+    padding: 20px;
+    margin-top: -5px;
+    width: 180px;
+}
+
+.cardBoxContent h4{
+    padding: 7px 3px;
+    color: #16B0F0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.cardBoxContent h5{
+    font-size: 12px;
+    padding: 7px 3px 0px;
+}
+
+.cardBox img{
+    width: 220px;
+    height: 160px;
+}
+
+section h2{
+    padding: 15px 100px 13px 150px;
+    font-size: 24px;
+}
+
+.topSection{
+    background-color: #EDEDF0;
+    padding-top: 20px;
+    border-bottom: solid 1px #C4C4CB;
+    height: 350px;
+}
+
+.sectionNav{
+    border-top: solid 3px #2D333C;
+    border-bottom: solid 1px #A3A1B3;
+    padding: 20px 80px;
+}
+
+.sectionNav ul{
+    display: inline;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.sectionNav ul li{
+    display: inline;
+    border-right: solid 1px #A3A1B3;
+    padding: 20px 50px;
+}
+
+.topSection h3{
+    display: inline;
+    padding: 20px 0px 20px 30px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.topSection span{
+    font-size: 12px;
+    color: #5F5F60;
+}
+
+
+.bottomSectionTitle {
+    margin: 20px;
+}
+
+.bottomSectionTitle h3{
+    display: inline;
+    font-size: 20px;
+    margin: 30px;
+    font-weight: bolder;
+}
+
+.bottomSectionTitle span{
+    color: #9B9B9C;
+    font-size: 12px;
+}
+
+.moreBtn{
+    float: right;
+    color: #ADADAD;
+    font-size: 10px;
+    margin-right: 20px;
+}
+
+.listBox{
+    width: 750px;
+    height: 140px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+}
+
+.listBox img{
+    float: left;
+    margin: 0 10px 10px 10px;
+    width: 220px;
+    height: 130px;
+}
+
+.listBoxContent h3{
+    color: #16B0F0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.listBoxContent h4{
+    font-size: 14px;
+    font-weight: bolder;
+    color:darkgreen;
+    margin-bottom: 10px;
+}
+
+.listBoxContent h5{
+    font-weight: bolder;
+    font-size: 16px;
+    color:darkgreen
+    margin-bottom: 10px;
+}
+
+.listBoxContent p{
+    font-size: 13px;
+    color: #acbdac;
+    letter-spacing: 0.2px;
+}
